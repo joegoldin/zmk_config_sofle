@@ -49,11 +49,11 @@
             //               |  (  |      |      |      | S-ENTR |  |  DEL  | SHFT |       |       |   )  |
 
             bindings = <
-&kp F12    &kp F1    &kp F2    &kp F3  &kp F4  &kp F5                     &kp F6           &kp F7     &kp F8    &kp F9     &kp F10   &kp F11
-&kp GRAVE  &trans    &trans    &trans  &trans  &trans                     &kp MINUS        &kp EQUAL  &kp UP    &trans     &trans    &trans
-&trans     &trans    &trans    &trans  &trans  &trans                     &kp UNDER        &kp LEFT   &kp DOWN  &kp RIGHT  &trans    &trans
-&trans     &kp LPAR  &trans    &trans  &trans  &trans  &trans    &trans   &kp KP_MULTIPLY  &trans     &trans    &trans     &kp RPAR  &trans
-                     &kp LPAR  &trans  &trans  &trans  &trans    &kp DEL  &kp LS(RET)      &mo 2      &trans    &kp RPAR
+&kp GRAVE      &kp F12   &kp F2    &kp F3  &kp F4  &kp F5                     &kp F6           &kp F7     &kp F8    &kp F9     &kp F10   &kp F11
+&kp LA(GRAVE)  &trans    &trans    &trans  &trans  &trans                     &kp MINUS        &kp EQUAL  &kp UP    &trans     &trans    &trans
+&trans         &trans    &trans    &trans  &trans  &trans                     &kp UNDER        &kp LEFT   &kp DOWN  &kp RIGHT  &trans    &trans
+&trans         &kp LPAR  &trans    &trans  &trans  &trans  &trans    &trans   &kp KP_MULTIPLY  &trans     &trans    &trans     &kp RPAR  &trans
+                         &kp LPAR  &trans  &trans  &trans  &trans    &kp DEL  &kp LS(RET)      &mo 2      &trans    &kp RPAR
             >;
 
             sensor-bindings =
